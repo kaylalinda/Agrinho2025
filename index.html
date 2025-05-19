@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <title>conexão Campo e Cidade</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header class=" p-5">
+
+        <nav class="container d-flex justify-content-between align-items-center">
+            <img src="https://blog.cowboystore.com.br/wp-content/uploads/2024/10/vida-no-campo-versus-vida-na-cidade.jpg" alt="Logotipo da Tropicália" class="nav-img " loading="lazy">
+            <ul class="nav mt-5">
+                <li class="nav-item"><a class="nav-link" href="#inicio">Início</a></li>
+                <li class="nav-item"><a class="nav-link" href="#galeria">Galeria</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contato">Contato</a></li>
+            </ul>          
+        </nav>
+       
+    </header>
+
+
+    <main class="container my-5">
+
+        <section id="inicio" class="my-5">
+            <div class="inicio-fundo d-flex justify-content-between align-items-center">
+                <div class="esquerda-conteudo">
+                    <h1 class="display-4 text-white fst-italic fw-bold">Boas-vindas a</h1>
+                    <img src="https://static.preparaenem.com/conteudo_legenda/76694917fb981a7fa4dd4759969c7d60.jpg" alt="Logotipo secundário da Tropicália" class="mb-3" width="563"
+                        height="278" loading="lazy">
+                    <a href="#tropicalia"
+                        class="btn btn-primary btn-lg botao-inicio fw-semibold">Quero
+                        conhecer!</a>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="tropicalia" class="my-5 pt-6 campo e a cidade">
+            <div class="container d-flex align-items-center ">
+                  <div class="col-5">
+                    <h2>O que é campo e Cidade</h2>
+                    <p class="p-2">O campo e a cidade são os dois espaços físicos principais em que se baseia a população e que apresentam entre si grandes diferenças
+                         naturais, sociais e econômicas que influenciam no estilo de vida dos indivíduos que habitam em cada um destes ambientes.
+                        Por um lado, o campo ou o meio rural são constituídos por grandes extensões de terra que abrigam um pequeno número de habitantes que vivem de 
+                        forma dispersa num ambiente natural. Ao contrário, as cidades são povoações formadas por um grande número de pessoas que vivem em casas ou 
+                        edifícios que se constroem muito próximos uns dos outros (já que a terra é o bem mais escasso e, portanto, mais caro). As cidades variam de 
+                        acordo com o seu número de habitantes, que podem ser centenas ou milhões.
+                        No campo existe uma predominância de atividades econômicas primárias, ou seja, de produção de matérias-primas (como a agricultura e a pecuária)
+                         para abastecer diferentes indústrias; nas cidades predominam as atividades terciárias, especialmente tudo o que tem a ver com a provisão 
+                         de bens e serviços. Nas áreas rurais geralmente há menos equipamentos e serviços que na cidade. Assim, por exemplo, para realizar
+                          diligências, para frequentar estudos superiores ou para obter assistência médica mais especializada, a população rural é obrigada a 
+                          mudar-se para um centro urbano.
+            .</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="galeria">
+            <h2 class="text-center pt-5">Galeria</h2>
+            <div class="container p-3 mt-3 fundo-galeria ">
+
+                <div class="row justify-content-md-center">
+                    <div class="col-md-4">
+                        <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjNNJvdv4opDtTm9BdRBZjq3lVhRBIBZraErXNuIZuId_4h6cWnexehOb6jmSU3EqE2eGPu3841sw7sj8SkXlUPvrw7M6RWkh7LP485zBE48xzUGa9zAd_KUsjKDYOAD99KGUx2xshD2x4/s571/ESPA%25C3%2587O+RURAL+E+ESPA%25C3%2587O+URBANO.jpg"
+                            class="img-fluid rounded-5" loading="lazy">
+                    </div>
+                    <div class="col-md-4">
+                        <img src="https://pt.quizur.com/_image?href=https://img.quizur.com/f/img5efaa9ba41fa44.68126505.png?lastEdited=1593485786&w=600&h=600&f=webp" class="img-fluid rounded-5"
+                            loading="lazy">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contato">
+            <div class="container p-5 d-flex justify-content-center">
+                <div class="col-md-8 col-lg-10 rounded-5 formulario"> <!-- Caixa do formulário com 60% de largura -->
+                    <h2 class="mb-3">Entre em contato</h2>
+                    <form>
+                        <div class="form-group mb-3">
+                            <label for="nome">Nome</label>
+                            <input type="text" id="nome" name="nome" class="form-control rounded-3 mt-1"
+                                placeholder="Digite seu nome completo">
+                        </div>
+                        <div class="form-group mb-3">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" class="form-control rounded-3 mt-1"
+                                placeholder="Digite seu email">
+                        </div>
+                        <div class="form-group mb-3">
+                            <label for="mensagem">Mensagem</label>
+                            <textarea id="mensagem" name="mensagem" class="form-control rounded-4 mt-2" rows="4"
+                                placeholder="Escreva sua mensagem"></textarea>
+                        </div>
+                        <div class="d-grid gap-2">
+                            <button type="submit" class="btn btn-primary btn-lg rounded-pill tamanho-botao">Enviar
+                                mensagem</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="text-center p-3 fst-italic">
+        <p>Acesse nossas redes:</p>
+        <i class="bi bi-whatsapp"></i>
+        <i class="bi bi-instagram"></i>
+        <i class="bi bi-tiktok"></i>
+        <p class="mt-3">Desenvolvido por Start by Alura. Projeto fictício sem fins comerciais.</p>
+    </footer>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
